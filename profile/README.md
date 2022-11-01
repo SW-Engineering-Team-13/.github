@@ -1,12 +1,119 @@
-## Hi there 👋
+# mYting
 
-<!--
+- MBTI Based Friend Matching Service
 
-**Here are some ideas to get you started:**
+  
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Description
+
+- 본 프로그램/서비스는 MBTI 검사를 통해 나온 유형을 기반으로 서로 성향이 맞을 확률이 높은 친구를 만들기 위한 웹 서비스입니다.
+- 코로나19로 인해 비대면 환경의 생활이 길어짐에 따라 대면 활동이 없어 교우관계가 원활하지 못한 상황에서 갑작스런 전면 대면 전환에 지인이 필요한 사람들을 위한 서비스입니다.
+- Target
+  - 연세대학교 미래캠퍼스 비대면 세대
+
+  
+
+## Features
+
+### 매칭 시스템
+
+- 남여, 남남, 여여 매칭 선택 가능
+- 최고의 궁합, 최악의 궁합 선택 가능
+- MBTI 궁합표를 기반으로 매칭
+  - https://www.quora.com/What-personality-types-are-the-best-matches-Which-are-the-worst
+
+  
+
+### 로그인 시스템
+
+- 회원가입을 통해 MBTI 유형, 성별 선택
+- 간단한 프로필을 통한 인원 정보 확인
+
+  
+
+### 쪽지 시스템
+
+- 매칭 이후 연락처 교환, 세부 성향 파악 등을 위한 쪽지 교환 서비스
+- 대면 활동 장려를 위해 10회로 제한
+
+  
+
+### Study 모집
+
+- Study 참가 기능
+  - 희망자가 원하는 Study에 가입하는 시스템
+  - 원하는 Study 검색을 위한 필터링 시스템 지원
+  - 참가한 Study의 참가자 정보 제공
+    - 개인정보 보호를 위하여 이름 및 학번(앞 4자리) 그리고 학과 정보만 제공
+  - Study가 마음에 들지 않을 경우, 혹은 다른 Study로 이동을 위한 Study 탈퇴 기능
+- Study 개설 기능
+  - 최대 인원, 공부 주제, Study 진행 시간, 스타일을 설정하여 Study 개설
+  - 개설 시, 입력된 정보 확인 및 수정 기능 제공
+  - Study 참가자 정보 제공
+    - 세미나실 예약을 위한 필수 정보(전화번호 뒷 4자리 및 학번) 및 이름, 학과 제공
+  - 평판이 좋지 않은 인원에 대한 방어 대책으로 추방 기능 제공
+    - 추방된 인원에 대한 쪽지 기능을 통하여 추방 사실 공지
+  - 도서관 및 세미나실 예약 사이트 이동
+    - 예약한 장소를 쪽지로 알림 기능
+    - 세미나실 : https://space.yonsei.ac.kr/
+    - 도서관 : https://wlib.yonsei.ac.kr/relation/seat
+  - 개인적 사유로 Study 운영이 힘들 경우 Study 폐지 기능
+- 학교 SNS 홈페이지/ 김예본
+
+- SNS 로그인시스템 / meta의 스크래핑 방지로 인해 개인이 로그인을 해야함
+  - 각자의 SNS(페이스북, 인스타그램)에 로그인
+- 여러개의 탭을 이용 화면전환 기능
+  - 페이스북 인스타그램 연세춘추의 탭을 활용 클릭시 해당화면으로 전환
+    
+  
+
+## Software Development Process
+
+- Based on Waterfall Model
+  - 소프트웨어 공학에서 가장 기본이 되는 모델
+  - 각 개발 단계별 산출물이 명확
+  - 개발 프로세스의 이해가 쉬움
+  - 단계
+    - 계획, 분석, 설계, 구현, 테스트, 유지보수
+
+  
+
+## Collaboration Tool
+
+- Github
+- Notion
+
+  
+
+## Schedule
+
+- 총 9주 계획
+  - 중간고사, 기말고사 기간 제외
+- 기획 및 계획( 1주차 )
+  - 09.15 ~ 09.21
+- 분석( 2 ~ 4주차 )
+  - 09.22 ~ 10.12
+  - 중간발표
+    - 10.13 ~ 10.19
+- 설계( 5주차 )
+  - 10.27 ~ 11.02
+- 구현( 6 ~ 8주차 )
+  - 11.03 ~ 11.23
+- 테스트 및 유지보수( 7 ~ 9주차 )
+  - 11.17 ~ 11.30
+  - 최종 발표
+    - 12.01 ~ 12.07
+
+  
+
+## Requirements
+
+- Node.js & Express
+- Vue.js, HTML, CSS
+- Docker
+
+  
+
+## Usage
+
+- 사용 방법
